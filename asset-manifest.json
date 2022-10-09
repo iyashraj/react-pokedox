@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-pokedox/static/css/main.00f982e0.css",
+    "main.js": "/react-pokedox/static/js/main.dff4fd1b.js",
+    "index.html": "/react-pokedox/index.html",
+    "main.00f982e0.css.map": "/react-pokedox/static/css/main.00f982e0.css.map",
+    "main.dff4fd1b.js.map": "/react-pokedox/static/js/main.dff4fd1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00f982e0.css",
+    "static/js/main.dff4fd1b.js"
+  ]
+}
