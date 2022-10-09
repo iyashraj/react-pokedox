@@ -5,6 +5,7 @@
     align-items: center;
     width: 140px;
     height: 150px;
+    cursor: pointer;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
