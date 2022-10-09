@@ -1,0 +1,109 @@
+
+.poke__main{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.title__Section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.title__Section h1{
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+
+.title__Section input{
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #ed4411;  
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 2%;
+    color: #ed4411;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+
+.title__Section button {
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 1px solid #ed4411;  
+    color: #ed4411;
+    background-color: #fff;
+}
+
+.title__Section button:hover{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #ed4411;
+}
+
+.display__Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allCardsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.singleCardWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 3% 0 3% 0;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 15px 100px 20px 100px;
+    flex-wrap: wrap;
+}
+
+.load-more{
+    background-color: #76daff;
+    background-image: linear-gradient(
+        315deg, #76daff 0%, #fcd000 74%
+    );
+    border-radius: 6px;
+    border: 1px solid #c6c6c6;
+    color: #444;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 5%;
+    min-width: 20%;
+    margin-top: 1rem;
+}
